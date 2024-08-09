@@ -8,12 +8,10 @@
 import UIKit
 
 final class MainViewController: UIViewController {
-    
-    var tableView = UITableView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.backgroundColor = .red
     }
 
 

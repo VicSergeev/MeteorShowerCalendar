@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		574BCBCC2C66908D00DA24B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BCBCB2C66908D00DA24B6 /* AppDelegate.swift */; };
-		574BCBCE2C66908D00DA24B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BCBCD2C66908D00DA24B6 /* SceneDelegate.swift */; };
-		574BCBD02C66908D00DA24B6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BCBCF2C66908D00DA24B6 /* MainViewController.swift */; };
-		574BCBD62C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 574BCBD42C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld */; };
-		574BCBD82C66908E00DA24B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574BCBD72C66908E00DA24B6 /* Assets.xcassets */; };
-		574BCBDB2C66908E00DA24B6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 574BCBDA2C66908E00DA24B6 /* Base */; };
+		57FEA4352C66B39C00C83E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4342C66B39C00C83E81 /* AppDelegate.swift */; };
+		57FEA4372C66B39C00C83E81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */; };
+		57FEA4392C66B39C00C83E81 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4382C66B39C00C83E81 /* MainViewController.swift */; };
+		57FEA43F2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA43D2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld */; };
+		57FEA4412C66B39E00C83E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA4402C66B39E00C83E81 /* Assets.xcassets */; };
+		57FEA4442C66B39E00C83E81 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA4432C66B39E00C83E81 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		574BCBC82C66908D00DA24B6 /* MeteorShowerCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorShowerCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		574BCBCB2C66908D00DA24B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		574BCBCD2C66908D00DA24B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		574BCBCF2C66908D00DA24B6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		574BCBD52C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeteorShowerCalendar.xcdatamodel; sourceTree = "<group>"; };
-		574BCBD72C66908E00DA24B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		574BCBDA2C66908E00DA24B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		574BCBDC2C66908E00DA24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FEA4312C66B39C00C83E81 /* MeteorShowerCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorShowerCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FEA4342C66B39C00C83E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57FEA4382C66B39C00C83E81 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		57FEA43E2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeteorShowerCalendar.xcdatamodel; sourceTree = "<group>"; };
+		57FEA4402C66B39E00C83E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57FEA4432C66B39E00C83E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57FEA4452C66B39E00C83E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		574BCBC52C66908D00DA24B6 /* Frameworks */ = {
+		57FEA42E2C66B39C00C83E81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,86 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		574BCBBF2C66908D00DA24B6 = {
+		57FEA4282C66B39C00C83E81 = {
 			isa = PBXGroup;
 			children = (
-				574BCBCA2C66908D00DA24B6 /* MeteorShowerCalendar */,
-				574BCBC92C66908D00DA24B6 /* Products */,
+				57FEA4332C66B39C00C83E81 /* MeteorShowerCalendar */,
+				57FEA4322C66B39C00C83E81 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		574BCBC92C66908D00DA24B6 /* Products */ = {
+		57FEA4322C66B39C00C83E81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				574BCBC82C66908D00DA24B6 /* MeteorShowerCalendar.app */,
+				57FEA4312C66B39C00C83E81 /* MeteorShowerCalendar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		574BCBCA2C66908D00DA24B6 /* MeteorShowerCalendar */ = {
+		57FEA4332C66B39C00C83E81 /* MeteorShowerCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				574BCBE22C66909E00DA24B6 /* Core */,
-				574BCBE32C6690F100DA24B6 /* ViewControllers */,
-				574BCBE42C66913200DA24B6 /* Resources */,
-				574BCBE52C66913B00DA24B6 /* Storyboards */,
-				574BCBE62C66914400DA24B6 /* DataStore */,
+				57FEA4342C66B39C00C83E81 /* AppDelegate.swift */,
+				57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */,
+				57FEA4382C66B39C00C83E81 /* MainViewController.swift */,
+				57FEA4402C66B39E00C83E81 /* Assets.xcassets */,
+				57FEA4422C66B39E00C83E81 /* LaunchScreen.storyboard */,
+				57FEA4452C66B39E00C83E81 /* Info.plist */,
+				57FEA43D2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld */,
 			);
 			path = MeteorShowerCalendar;
-			sourceTree = "<group>";
-		};
-		574BCBE22C66909E00DA24B6 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				574BCBCB2C66908D00DA24B6 /* AppDelegate.swift */,
-				574BCBCD2C66908D00DA24B6 /* SceneDelegate.swift */,
-				574BCBDC2C66908E00DA24B6 /* Info.plist */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		574BCBE32C6690F100DA24B6 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				574BCBCF2C66908D00DA24B6 /* MainViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		574BCBE42C66913200DA24B6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				574BCBD72C66908E00DA24B6 /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		574BCBE52C66913B00DA24B6 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				574BCBD92C66908E00DA24B6 /* LaunchScreen.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		574BCBE62C66914400DA24B6 /* DataStore */ = {
-			isa = PBXGroup;
-			children = (
-				574BCBD42C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld */,
-			);
-			path = DataStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		574BCBC72C66908D00DA24B6 /* MeteorShowerCalendar */ = {
+		57FEA4302C66B39C00C83E81 /* MeteorShowerCalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 574BCBDF2C66908E00DA24B6 /* Build configuration list for PBXNativeTarget "MeteorShowerCalendar" */;
+			buildConfigurationList = 57FEA4482C66B39E00C83E81 /* Build configuration list for PBXNativeTarget "MeteorShowerCalendar" */;
 			buildPhases = (
-				574BCBC42C66908D00DA24B6 /* Sources */,
-				574BCBC52C66908D00DA24B6 /* Frameworks */,
-				574BCBC62C66908D00DA24B6 /* Resources */,
+				57FEA42D2C66B39C00C83E81 /* Sources */,
+				57FEA42E2C66B39C00C83E81 /* Frameworks */,
+				57FEA42F2C66B39C00C83E81 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,25 +84,25 @@
 			);
 			name = MeteorShowerCalendar;
 			productName = MeteorShowerCalendar;
-			productReference = 574BCBC82C66908D00DA24B6 /* MeteorShowerCalendar.app */;
+			productReference = 57FEA4312C66B39C00C83E81 /* MeteorShowerCalendar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		574BCBC02C66908D00DA24B6 /* Project object */ = {
+		57FEA4292C66B39C00C83E81 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					574BCBC72C66908D00DA24B6 = {
+					57FEA4302C66B39C00C83E81 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 574BCBC32C66908D00DA24B6 /* Build configuration list for PBXProject "MeteorShowerCalendar" */;
+			buildConfigurationList = 57FEA42C2C66B39C00C83E81 /* Build configuration list for PBXProject "MeteorShowerCalendar" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,47 +110,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 574BCBBF2C66908D00DA24B6;
-			productRefGroup = 574BCBC92C66908D00DA24B6 /* Products */;
+			mainGroup = 57FEA4282C66B39C00C83E81;
+			productRefGroup = 57FEA4322C66B39C00C83E81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				574BCBC72C66908D00DA24B6 /* MeteorShowerCalendar */,
+				57FEA4302C66B39C00C83E81 /* MeteorShowerCalendar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		574BCBC62C66908D00DA24B6 /* Resources */ = {
+		57FEA42F2C66B39C00C83E81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574BCBD82C66908E00DA24B6 /* Assets.xcassets in Resources */,
-				574BCBDB2C66908E00DA24B6 /* Base in Resources */,
+				57FEA4412C66B39E00C83E81 /* Assets.xcassets in Resources */,
+				57FEA4442C66B39E00C83E81 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		574BCBC42C66908D00DA24B6 /* Sources */ = {
+		57FEA42D2C66B39C00C83E81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574BCBD02C66908D00DA24B6 /* MainViewController.swift in Sources */,
-				574BCBD62C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld in Sources */,
-				574BCBCC2C66908D00DA24B6 /* AppDelegate.swift in Sources */,
-				574BCBCE2C66908D00DA24B6 /* SceneDelegate.swift in Sources */,
+				57FEA4392C66B39C00C83E81 /* MainViewController.swift in Sources */,
+				57FEA43F2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld in Sources */,
+				57FEA4352C66B39C00C83E81 /* AppDelegate.swift in Sources */,
+				57FEA4372C66B39C00C83E81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		574BCBD92C66908E00DA24B6 /* LaunchScreen.storyboard */ = {
+		57FEA4422C66B39E00C83E81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				574BCBDA2C66908E00DA24B6 /* Base */,
+				57FEA4432C66B39E00C83E81 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +158,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		574BCBDD2C66908E00DA24B6 /* Debug */ = {
+		57FEA4462C66B39E00C83E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		574BCBDE2C66908E00DA24B6 /* Release */ = {
+		57FEA4472C66B39E00C83E81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,7 +277,7 @@
 			};
 			name = Release;
 		};
-		574BCBE02C66908E00DA24B6 /* Debug */ = {
+		57FEA4492C66B39E00C83E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,11 +286,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MF7QC2JX3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MeteorShowerCalendar/Core/Info.plist;
+				INFOPLIST_FILE = MeteorShowerCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		574BCBE12C66908E00DA24B6 /* Release */ = {
+		57FEA44A2C66B39E00C83E81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -356,11 +316,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MF7QC2JX3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MeteorShowerCalendar/Core/Info.plist;
+				INFOPLIST_FILE = MeteorShowerCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,20 +340,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		574BCBC32C66908D00DA24B6 /* Build configuration list for PBXProject "MeteorShowerCalendar" */ = {
+		57FEA42C2C66B39C00C83E81 /* Build configuration list for PBXProject "MeteorShowerCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574BCBDD2C66908E00DA24B6 /* Debug */,
-				574BCBDE2C66908E00DA24B6 /* Release */,
+				57FEA4462C66B39E00C83E81 /* Debug */,
+				57FEA4472C66B39E00C83E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		574BCBDF2C66908E00DA24B6 /* Build configuration list for PBXNativeTarget "MeteorShowerCalendar" */ = {
+		57FEA4482C66B39E00C83E81 /* Build configuration list for PBXNativeTarget "MeteorShowerCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574BCBE02C66908E00DA24B6 /* Debug */,
-				574BCBE12C66908E00DA24B6 /* Release */,
+				57FEA4492C66B39E00C83E81 /* Debug */,
+				57FEA44A2C66B39E00C83E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -401,17 +361,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		574BCBD42C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld */ = {
+		57FEA43D2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				574BCBD52C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodel */,
+				57FEA43E2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodel */,
 			);
-			currentVersion = 574BCBD52C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodel */;
+			currentVersion = 57FEA43E2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodel */;
 			path = MeteorShowerCalendar.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 574BCBC02C66908D00DA24B6 /* Project object */;
+	rootObject = 57FEA4292C66B39C00C83E81 /* Project object */;
 }
