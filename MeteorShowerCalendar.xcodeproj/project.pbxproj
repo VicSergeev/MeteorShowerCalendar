@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		57156B082C66B8BF00F8130D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 57156B072C66B8BF00F8130D /* SnapKit */; };
+		57156B0A2C66BA6D00F8130D /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B092C66BA6D00F8130D /* UIView + Ext.swift */; };
+		57156B0C2C66BAC100F8130D /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B0B2C66BAC100F8130D /* BaseTableViewCell.swift */; };
+		57156B122C66BC0400F8130D /* MeteorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B0F2C66BC0400F8130D /* MeteorTableViewCell.swift */; };
 		57FEA4352C66B39C00C83E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4342C66B39C00C83E81 /* AppDelegate.swift */; };
 		57FEA4372C66B39C00C83E81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */; };
 		57FEA4392C66B39C00C83E81 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4382C66B39C00C83E81 /* MainViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57156B092C66BA6D00F8130D /* UIView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
+		57156B0B2C66BAC100F8130D /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		57156B0F2C66BC0400F8130D /* MeteorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorTableViewCell.swift; sourceTree = "<group>"; };
 		57FEA4312C66B39C00C83E81 /* MeteorShowerCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorShowerCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA4342C66B39C00C83E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +79,23 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		57156B0D2C66BAD900F8130D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				57156B092C66BA6D00F8130D /* UIView + Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		57156B0E2C66BAE800F8130D /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				57156B0B2C66BAC100F8130D /* BaseTableViewCell.swift */,
+				57156B0F2C66BC0400F8130D /* MeteorTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		57FEA4282C66B39C00C83E81 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +120,8 @@
 				57156B042C66B87700F8130D /* Resources */,
 				57156B052C66B88F00F8130D /* Storyboards */,
 				57FEA43D2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld */,
+				57156B0D2C66BAD900F8130D /* Extensions */,
+				57156B0E2C66BAE800F8130D /* TableViewCells */,
 			);
 			path = MeteorShowerCalendar;
 			sourceTree = "<group>";
@@ -177,9 +202,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57156B0A2C66BA6D00F8130D /* UIView + Ext.swift in Sources */,
 				57FEA4392C66B39C00C83E81 /* MainViewController.swift in Sources */,
 				57FEA43F2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld in Sources */,
 				57FEA4352C66B39C00C83E81 /* AppDelegate.swift in Sources */,
+				57156B0C2C66BAC100F8130D /* BaseTableViewCell.swift in Sources */,
+				57156B122C66BC0400F8130D /* MeteorTableViewCell.swift in Sources */,
 				57FEA4372C66B39C00C83E81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
