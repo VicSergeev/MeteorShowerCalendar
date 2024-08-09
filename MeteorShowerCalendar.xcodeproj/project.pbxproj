@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57156B082C66B8BF00F8130D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 57156B072C66B8BF00F8130D /* SnapKit */; };
 		57FEA4352C66B39C00C83E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4342C66B39C00C83E81 /* AppDelegate.swift */; };
 		57FEA4372C66B39C00C83E81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */; };
 		57FEA4392C66B39C00C83E81 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4382C66B39C00C83E81 /* MainViewController.swift */; };
@@ -31,12 +32,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57156B082C66B8BF00F8130D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57156B022C66B7D600F8130D /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA4342C66B39C00C83E81 /* AppDelegate.swift */,
+				57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */,
+				57FEA4452C66B39E00C83E81 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		57156B032C66B85C00F8130D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA4382C66B39C00C83E81 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57156B042C66B87700F8130D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA4402C66B39E00C83E81 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57156B052C66B88F00F8130D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA4422C66B39E00C83E81 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		57FEA4282C66B39C00C83E81 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +92,10 @@
 		57FEA4332C66B39C00C83E81 /* MeteorShowerCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				57FEA4342C66B39C00C83E81 /* AppDelegate.swift */,
-				57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */,
-				57FEA4382C66B39C00C83E81 /* MainViewController.swift */,
-				57FEA4402C66B39E00C83E81 /* Assets.xcassets */,
-				57FEA4422C66B39E00C83E81 /* LaunchScreen.storyboard */,
-				57FEA4452C66B39E00C83E81 /* Info.plist */,
+				57156B022C66B7D600F8130D /* Supporting */,
+				57156B032C66B85C00F8130D /* ViewControllers */,
+				57156B042C66B87700F8130D /* Resources */,
+				57156B052C66B88F00F8130D /* Storyboards */,
 				57FEA43D2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld */,
 			);
 			path = MeteorShowerCalendar;
@@ -83,6 +117,9 @@
 			dependencies = (
 			);
 			name = MeteorShowerCalendar;
+			packageProductDependencies = (
+				57156B072C66B8BF00F8130D /* SnapKit */,
+			);
 			productName = MeteorShowerCalendar;
 			productReference = 57FEA4312C66B39C00C83E81 /* MeteorShowerCalendar.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 57FEA4282C66B39C00C83E81;
+			packageReferences = (
+				57156B062C66B8BF00F8130D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 57FEA4322C66B39C00C83E81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -286,7 +326,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MF7QC2JX3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MeteorShowerCalendar/Info.plist;
+				INFOPLIST_FILE = MeteorShowerCalendar/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -316,7 +356,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MF7QC2JX3N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MeteorShowerCalendar/Info.plist;
+				INFOPLIST_FILE = MeteorShowerCalendar/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -359,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		57156B062C66B8BF00F8130D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		57156B072C66B8BF00F8130D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57156B062C66B8BF00F8130D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		57FEA43D2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld */ = {
