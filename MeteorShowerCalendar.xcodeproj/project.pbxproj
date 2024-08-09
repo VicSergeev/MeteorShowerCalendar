@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574BCBCC2C66908D00DA24B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BCBCB2C66908D00DA24B6 /* AppDelegate.swift */; };
+		574BCBCE2C66908D00DA24B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BCBCD2C66908D00DA24B6 /* SceneDelegate.swift */; };
+		574BCBD02C66908D00DA24B6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BCBCF2C66908D00DA24B6 /* MainViewController.swift */; };
+		574BCBD62C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 574BCBD42C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld */; };
+		574BCBD82C66908E00DA24B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574BCBD72C66908E00DA24B6 /* Assets.xcassets */; };
+		574BCBDB2C66908E00DA24B6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 574BCBDA2C66908E00DA24B6 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		574BCBC82C66908D00DA24B6 /* MeteorShowerCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorShowerCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574BCBCB2C66908D00DA24B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		574BCBCD2C66908D00DA24B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		574BCBCF2C66908D00DA24B6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		574BCBD52C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeteorShowerCalendar.xcdatamodel; sourceTree = "<group>"; };
+		574BCBD72C66908E00DA24B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		574BCBDA2C66908E00DA24B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		574BCBDC2C66908E00DA24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		574BCBC52C66908D00DA24B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574BCBBF2C66908D00DA24B6 = {
+			isa = PBXGroup;
+			children = (
+				574BCBCA2C66908D00DA24B6 /* MeteorShowerCalendar */,
+				574BCBC92C66908D00DA24B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		574BCBC92C66908D00DA24B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574BCBC82C66908D00DA24B6 /* MeteorShowerCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574BCBCA2C66908D00DA24B6 /* MeteorShowerCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				574BCBE22C66909E00DA24B6 /* Core */,
+				574BCBE32C6690F100DA24B6 /* ViewControllers */,
+				574BCBE42C66913200DA24B6 /* Resources */,
+				574BCBE52C66913B00DA24B6 /* Storyboards */,
+				574BCBE62C66914400DA24B6 /* DataStore */,
+			);
+			path = MeteorShowerCalendar;
+			sourceTree = "<group>";
+		};
+		574BCBE22C66909E00DA24B6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				574BCBCB2C66908D00DA24B6 /* AppDelegate.swift */,
+				574BCBCD2C66908D00DA24B6 /* SceneDelegate.swift */,
+				574BCBDC2C66908E00DA24B6 /* Info.plist */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		574BCBE32C6690F100DA24B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				574BCBCF2C66908D00DA24B6 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		574BCBE42C66913200DA24B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				574BCBD72C66908E00DA24B6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		574BCBE52C66913B00DA24B6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				574BCBD92C66908E00DA24B6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		574BCBE62C66914400DA24B6 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				574BCBD42C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		574BCBC72C66908D00DA24B6 /* MeteorShowerCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574BCBDF2C66908E00DA24B6 /* Build configuration list for PBXNativeTarget "MeteorShowerCalendar" */;
+			buildPhases = (
+				574BCBC42C66908D00DA24B6 /* Sources */,
+				574BCBC52C66908D00DA24B6 /* Frameworks */,
+				574BCBC62C66908D00DA24B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeteorShowerCalendar;
+			productName = MeteorShowerCalendar;
+			productReference = 574BCBC82C66908D00DA24B6 /* MeteorShowerCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		574BCBC02C66908D00DA24B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					574BCBC72C66908D00DA24B6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 574BCBC32C66908D00DA24B6 /* Build configuration list for PBXProject "MeteorShowerCalendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 574BCBBF2C66908D00DA24B6;
+			productRefGroup = 574BCBC92C66908D00DA24B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				574BCBC72C66908D00DA24B6 /* MeteorShowerCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		574BCBC62C66908D00DA24B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574BCBD82C66908E00DA24B6 /* Assets.xcassets in Resources */,
+				574BCBDB2C66908E00DA24B6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		574BCBC42C66908D00DA24B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574BCBD02C66908D00DA24B6 /* MainViewController.swift in Sources */,
+				574BCBD62C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld in Sources */,
+				574BCBCC2C66908D00DA24B6 /* AppDelegate.swift in Sources */,
+				574BCBCE2C66908D00DA24B6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		574BCBD92C66908E00DA24B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574BCBDA2C66908E00DA24B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		574BCBDD2C66908E00DA24B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		574BCBDE2C66908E00DA24B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574BCBE02C66908E00DA24B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF7QC2JX3N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeteorShowerCalendar/Core/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftvibes.MeteorShowerCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574BCBE12C66908E00DA24B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF7QC2JX3N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeteorShowerCalendar/Core/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftvibes.MeteorShowerCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574BCBC32C66908D00DA24B6 /* Build configuration list for PBXProject "MeteorShowerCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574BCBDD2C66908E00DA24B6 /* Debug */,
+				574BCBDE2C66908E00DA24B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574BCBDF2C66908E00DA24B6 /* Build configuration list for PBXNativeTarget "MeteorShowerCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574BCBE02C66908E00DA24B6 /* Debug */,
+				574BCBE12C66908E00DA24B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		574BCBD42C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				574BCBD52C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodel */,
+			);
+			currentVersion = 574BCBD52C66908D00DA24B6 /* MeteorShowerCalendar.xcdatamodel */;
+			path = MeteorShowerCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 574BCBC02C66908D00DA24B6 /* Project object */;
+}
