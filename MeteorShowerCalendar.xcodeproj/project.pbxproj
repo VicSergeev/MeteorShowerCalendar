@@ -11,6 +11,9 @@
 		57156B0A2C66BA6D00F8130D /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B092C66BA6D00F8130D /* UIView + Ext.swift */; };
 		57156B0C2C66BAC100F8130D /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B0B2C66BAC100F8130D /* BaseTableViewCell.swift */; };
 		57156B122C66BC0400F8130D /* MeteorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B0F2C66BC0400F8130D /* MeteorTableViewCell.swift */; };
+		57156B152C67EEE700F8130D /* TinyMoon in Frameworks */ = {isa = PBXBuildFile; productRef = 57156B142C67EEE700F8130D /* TinyMoon */; };
+		57156B172C67EF2C00F8130D /* MeteorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57156B162C67EF2C00F8130D /* MeteorView.xib */; };
+		57156B1A2C67EF4500F8130D /* MeteorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B192C67EF4500F8130D /* MeteorView.swift */; };
 		57FEA4352C66B39C00C83E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4342C66B39C00C83E81 /* AppDelegate.swift */; };
 		57FEA4372C66B39C00C83E81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */; };
 		57FEA4392C66B39C00C83E81 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4382C66B39C00C83E81 /* MainViewController.swift */; };
@@ -23,6 +26,8 @@
 		57156B092C66BA6D00F8130D /* UIView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
 		57156B0B2C66BAC100F8130D /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		57156B0F2C66BC0400F8130D /* MeteorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorTableViewCell.swift; sourceTree = "<group>"; };
+		57156B162C67EF2C00F8130D /* MeteorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeteorView.xib; sourceTree = "<group>"; };
+		57156B192C67EF4500F8130D /* MeteorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorView.swift; sourceTree = "<group>"; };
 		57FEA4312C66B39C00C83E81 /* MeteorShowerCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorShowerCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA4342C66B39C00C83E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57156B082C66B8BF00F8130D /* SnapKit in Frameworks */,
+				57156B152C67EEE700F8130D /* TinyMoon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +102,15 @@
 			path = TableViewCells;
 			sourceTree = "<group>";
 		};
+		57156B182C67EF3100F8130D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57156B162C67EF2C00F8130D /* MeteorView.xib */,
+				57156B192C67EF4500F8130D /* MeteorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		57FEA4282C66B39C00C83E81 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +137,7 @@
 				57FEA43D2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld */,
 				57156B0D2C66BAD900F8130D /* Extensions */,
 				57156B0E2C66BAE800F8130D /* TableViewCells */,
+				57156B182C67EF3100F8130D /* Views */,
 			);
 			path = MeteorShowerCalendar;
 			sourceTree = "<group>";
@@ -144,6 +160,7 @@
 			name = MeteorShowerCalendar;
 			packageProductDependencies = (
 				57156B072C66B8BF00F8130D /* SnapKit */,
+				57156B142C67EEE700F8130D /* TinyMoon */,
 			);
 			productName = MeteorShowerCalendar;
 			productReference = 57FEA4312C66B39C00C83E81 /* MeteorShowerCalendar.app */;
@@ -175,6 +192,7 @@
 			mainGroup = 57FEA4282C66B39C00C83E81;
 			packageReferences = (
 				57156B062C66B8BF00F8130D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				57156B132C67EEE700F8130D /* XCRemoteSwiftPackageReference "TinyMoon" */,
 			);
 			productRefGroup = 57FEA4322C66B39C00C83E81 /* Products */;
 			projectDirPath = "";
@@ -192,6 +210,7 @@
 			files = (
 				57FEA4412C66B39E00C83E81 /* Assets.xcassets in Resources */,
 				57FEA4442C66B39E00C83E81 /* Base in Resources */,
+				57156B172C67EF2C00F8130D /* MeteorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +223,7 @@
 			files = (
 				57156B0A2C66BA6D00F8130D /* UIView + Ext.swift in Sources */,
 				57FEA4392C66B39C00C83E81 /* MainViewController.swift in Sources */,
+				57156B1A2C67EF4500F8130D /* MeteorView.swift in Sources */,
 				57FEA43F2C66B39C00C83E81 /* MeteorShowerCalendar.xcdatamodeld in Sources */,
 				57FEA4352C66B39C00C83E81 /* AppDelegate.swift in Sources */,
 				57156B0C2C66BAC100F8130D /* BaseTableViewCell.swift in Sources */,
@@ -437,6 +457,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		57156B132C67EEE700F8130D /* XCRemoteSwiftPackageReference "TinyMoon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mannylopez/TinyMoon.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -444,6 +472,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 57156B062C66B8BF00F8130D /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		57156B142C67EEE700F8130D /* TinyMoon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57156B132C67EEE700F8130D /* XCRemoteSwiftPackageReference "TinyMoon" */;
+			productName = TinyMoon;
 		};
 /* End XCSwiftPackageProductDependency section */
 
