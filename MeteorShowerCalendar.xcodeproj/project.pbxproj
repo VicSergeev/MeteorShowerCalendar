@@ -14,6 +14,7 @@
 		57156B152C67EEE700F8130D /* TinyMoon in Frameworks */ = {isa = PBXBuildFile; productRef = 57156B142C67EEE700F8130D /* TinyMoon */; };
 		57156B172C67EF2C00F8130D /* MeteorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57156B162C67EF2C00F8130D /* MeteorView.xib */; };
 		57156B1A2C67EF4500F8130D /* MeteorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B192C67EF4500F8130D /* MeteorView.swift */; };
+		57156B1C2C67FB4A00F8130D /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57156B1B2C67FB4A00F8130D /* TopTableViewCell.swift */; };
 		57FEA4352C66B39C00C83E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4342C66B39C00C83E81 /* AppDelegate.swift */; };
 		57FEA4372C66B39C00C83E81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */; };
 		57FEA4392C66B39C00C83E81 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA4382C66B39C00C83E81 /* MainViewController.swift */; };
@@ -28,6 +29,7 @@
 		57156B0F2C66BC0400F8130D /* MeteorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorTableViewCell.swift; sourceTree = "<group>"; };
 		57156B162C67EF2C00F8130D /* MeteorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeteorView.xib; sourceTree = "<group>"; };
 		57156B192C67EF4500F8130D /* MeteorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorView.swift; sourceTree = "<group>"; };
+		57156B1B2C67FB4A00F8130D /* TopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
 		57FEA4312C66B39C00C83E81 /* MeteorShowerCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorShowerCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA4342C66B39C00C83E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57FEA4362C66B39C00C83E81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				57156B0B2C66BAC100F8130D /* BaseTableViewCell.swift */,
 				57156B0F2C66BC0400F8130D /* MeteorTableViewCell.swift */,
+				57156B1B2C67FB4A00F8130D /* TopTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				57156B0C2C66BAC100F8130D /* BaseTableViewCell.swift in Sources */,
 				57156B122C66BC0400F8130D /* MeteorTableViewCell.swift in Sources */,
 				57FEA4372C66B39C00C83E81 /* SceneDelegate.swift in Sources */,
+				57156B1C2C67FB4A00F8130D /* TopTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

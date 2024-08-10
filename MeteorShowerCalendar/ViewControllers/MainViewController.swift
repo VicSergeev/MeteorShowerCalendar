@@ -14,7 +14,7 @@ final class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        
+        title = "Meteor Showers"
         tableViewSetup()
     }
 
@@ -31,6 +31,7 @@ extension MainViewController {
         setDelegates()
         
         tableView.register(MeteorTableViewCell.self, forCellReuseIdentifier: Cells.meteorCell)
+        tableView.register(TopTableViewCell.self, forCellReuseIdentifier: Cells.topCell)
         
         tableView.rowHeight = 100
         tableView.pin(to: view)
@@ -43,16 +44,41 @@ extension MainViewController {
     }
 }
 
+// MARK: - Creating sections
+extension MainViewController {
+    
+    enum TableViewSections: Int, CaseIterable {
+        case top, list
+    }
+    
+}
+
 // MARK: - UITableViewDataSource & Delegate
 extension MainViewController: UITableViewDataSource, UITableViewDelegate {
+    
+    // MARK: - add sections
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return TableViewSections.allCases.count
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 12
+        
+        return TableViewSections(rawValue: section) == .top ? 1 : 14
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let lowerTopCell = tableView.dequeueReusableCell(withIdentifier: Cells.meteorCell, for: indexPath) as! MeteorTableViewCell
-        lowerTopCell.backgroundColor = .nanoBlue
-        return lowerTopCell
+        let sections = TableViewSections(rawValue: indexPath.section)!
+        
+        switch sections {
+        case .top:
+            let topCell = tableView.dequeueReusableCell(withIdentifier: Cells.topCell, for: indexPath) as! TopTableViewCell
+            topCell.backgroundColor = .green
+            return topCell
+        case .list:
+            let lowerTopCell = tableView.dequeueReusableCell(withIdentifier: Cells.meteorCell, for: indexPath) as! MeteorTableViewCell
+            lowerTopCell.backgroundColor = .nanoBlue
+            return lowerTopCell
+        }
     }
     
 }
@@ -61,5 +87,6 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
 extension MainViewController {
     struct Cells {
         static let meteorCell = "MeteorTableViewCell"
+        static let topCell = "TopTableViewCell"
     }
 }
